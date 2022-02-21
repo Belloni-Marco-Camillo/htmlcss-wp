@@ -1,5 +1,5 @@
 body{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
@@ -21,6 +21,7 @@ body{
     height: 400px;
     float: left;
     background-color: red;
+    
 }
 
 .content{
@@ -53,23 +54,22 @@ body{
     float: left;
     background-color: #ABCFE7;
     height: 710px;
-    width: 15%;
+    width: 20%;
 }
 
 .top-bar{
     position:absolute;
     top: 0;
     background-color: #ABCFE7;
-    height: 150px;
     width: 100%;
 }
 
 .colon{
     float: left;
     height: 710px;
-    width: 60%;
+    width: 50%;
     background-color: #ABCFE7;
-    margin: 0 5%
+    margin: 0 5%;
     
 }
 .center{
@@ -110,7 +110,13 @@ header>img{
 
 .site_main{
     position: relative;
-    background-image: url("./img/banner.jpg");
+    background-image: url("./../img/banner.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    opacity: 1.3;
 }
 
 .site_main_text{
@@ -119,4 +125,64 @@ header>img{
     left: 50px;
     font-size: 16px;
     width: 25%;
+    
+    color: white;
+}
+
+
+
+
+/* ho di defoul il bianco come opacity*/
+
+.top-bar>span{
+    padding: 0;
+    color:rgb(201, 196, 196);
+}
+
+.top-bar>p{
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.space-img-dx{
+    background-image: url(./../img/img-1.jpg);
+    width: 100%;
+    height: 34.5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 50%;
+    border-radius: 10px;
+}
+
+
+.dimension-relative>p:nth-child(3){
+    color: rgb(201, 196, 196);
+}
+
+.space-img{
+    background-image: url(./../img/banner-2.jpg);
+    width: 100%;
+    height: 34.5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 50%;
+    border-radius: 10px;
+}
+.colon>p{
+    text-align: left;
+}
+
+.colon>p:nth-child(3){
+    color: rgb(201, 196, 196);
+}
+.space-img-sx{
+    background-image: url(./../img/img-3.jpg);
+    width: 100%;
+    height: 34.5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 50%;
+    border-radius: 10px;
 }
