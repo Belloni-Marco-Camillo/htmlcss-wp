@@ -11,7 +11,6 @@ body{
 }
 
 .site_main{
-    background-color: #E1D67A;
     height: 500px;
     margin: 20px 0px 20px 0px;
 }
@@ -105,4 +104,19 @@ header>img{
 
 .header-items{
     margin-top: 20px;
+}
+
+/* struttura header finita*/
+
+.site_main{
+    position: relative;
+    background-image: url("./img/banner.jpg");
+}
+
+.site_main_text{
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    font-size: 16px;
+    width: 25%;
 }
