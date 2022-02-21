@@ -1,5 +1,5 @@
 body{
-    width: 50%;
+    width: 1280px;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
@@ -93,7 +93,6 @@ header>img{
 .header-items>span{
     text-transform: uppercase;
     padding-right: 10px;
-    color: rgb(201, 196, 196);
 }
 
 .header-items{
@@ -120,6 +119,7 @@ header>img{
 
 
 .banner-one>img{
+    filter: brightness(0.9);
     display: block;
     width: 100%;
     object-fit: cover;
@@ -131,7 +131,7 @@ header>img{
 .subtitle{
     line-height: 0.4;
 }
-.grid{
+.grid-row1{
     margin: 40px auto;
     float: left;
 }
@@ -141,7 +141,8 @@ header>img{
 }
 
 .coloum-sx>img{
-    object-fit: scale-down;
+    filter: brightness(0.9);
+    object-fit: cover;
     width: 100%;
     height: 200px;
     border-radius: 15px;
@@ -155,8 +156,9 @@ header>img{
 }
 
 .coloum-middle>img{
+    filter: brightness(0.9);
     width: 100%;
-    object-fit: scale-down;
+    object-fit: cover;
     height: 200px;
     border-radius: 15px;
 }
@@ -166,13 +168,31 @@ header>img{
 }
 
 .coloum-dx>img{
+    filter: brightness(0.9);
     width: 100%;
     height: 200px;
-    object-fit: scale-down;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 .footer-designer>p{
     text-align: center;
 }
 
+.coloum-row2{
+    width: 20%;
+    float: left;
+    margin-right: 6.666%;
+}
 
+.coloum-row2>img{
+    filter: brightness(0.9);
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.heart{
+    color: red;
+}
