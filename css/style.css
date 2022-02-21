@@ -1,5 +1,6 @@
 body{
-    margin: 0;
+    width: 80%;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
@@ -86,4 +87,22 @@ body{
 .left{
     position: absolute;
     right: 0;
+}
+
+/*struttura layout*/
+
+header>img{
+    width: 200px;
+    padding-right: 15px;
+    border-right: rgb(201, 196, 196) solid 1px;
+}
+
+.header-items>span{
+    text-transform: uppercase;
+    padding-right: 10px;
+    color: rgb(201, 196, 196);
+}
+
+.header-items{
+    margin-top: 20px;
 }
