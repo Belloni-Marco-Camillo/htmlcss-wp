@@ -6,8 +6,7 @@ body{
 }
 
 .site_header{
-    height: 200px;
-    background-color: #E579E6;
+    height: 150px;
 }
 
 .site_main{
@@ -20,8 +19,6 @@ body{
     margin-right: 5%;
     height: 400px;
     float: left;
-    background-color: red;
-    
 }
 
 .content{
@@ -29,7 +26,6 @@ body{
     margin-right: 5%;
     height: 400px;
     float: left;
-    background-color: blue;
 }
 
 .clearfix::after{
@@ -40,35 +36,30 @@ body{
 
 .site_footer{
     height: 200px;
-    background-color: #8801FE;
     margin-top: 20px;
 }
 
 .section_main{
     position: relative;
-    height: 900px;
-    background-color: #0086FF;
+    height: 700px;
 }
 
 .dimension-relative{
     float: left;
-    background-color: #ABCFE7;
-    height: 710px;
+    height: 550px;
     width: 20%;
 }
 
 .top-bar{
     position:absolute;
     top: 0;
-    background-color: #ABCFE7;
     width: 100%;
 }
 
 .colon{
     float: left;
-    height: 710px;
+    height: 550px;
     width: 50%;
-    background-color: #ABCFE7;
     margin: 0 5%;
     
 }
@@ -78,8 +69,8 @@ body{
 
 .bottom-box{
     position: absolute;
-    bottom: 20px;
-    height: 510;
+    top: 100px;
+    
     width: 100%;
 }
 
@@ -125,7 +116,6 @@ header>img{
     left: 50px;
     font-size: 16px;
     width: 25%;
-    
     color: white;
 }
 
@@ -172,6 +162,7 @@ header>img{
 }
 .colon>p{
     text-align: left;
+    padding-bottom: 10px;
 }
 
 .colon>p:nth-child(3){
@@ -185,4 +176,18 @@ header>img{
     background-repeat: no-repeat;
     background-position: center 50%;
     border-radius: 10px;
+}
+
+/*fine main*/
+footer{
+    margin: 0;
+    padding: 0;
+}
+
+footer>p{
+    text-align: center;
+}
+
+.heart{
+    color: red;
 }
